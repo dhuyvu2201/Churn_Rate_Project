@@ -67,15 +67,12 @@ Deadline:
           ![Alt text](image/image9.png)
 - Nhận thấy giá trị dự đoán ở cả 2 tập train và test đều khá tương đồng nhau
     a. Đối với tập train của SVM
-  
           ![Alt text](image/image3.png)
   
     b. Đối với tập test của SVM
-  
           ![Alt text](image/image4.png)
   
     c. Đối với Catboost Model
-  
           ![Alt text](image/image5.png)
   
 - Trong số các kỹ thuật như Smote, RandomUndersampling,resample,... xử lý imbalance data. Nhận thấy Smote cho hiệu suất tốt nhất. Thông qua recall, tuy đã cải thiện vấn đề nhưng vẫn tồn tại chênh lệch khoảng 10% so với các lớp khác. 
@@ -90,7 +87,7 @@ Deadline:
   
     ![Alt text](image/image7.png)
   
-    c. Nhận thấy GridSearchCV khôn cải thiện. Điều này có thể do mảng lưới tìm kiếm chưa tối ưu?
+    c. Nhận thấy GridSearchCV không cải thiện. Điều này có thể do mảng lưới tìm kiếm chưa tối ưu?
   
 4. Đánh giá mô hình
    
