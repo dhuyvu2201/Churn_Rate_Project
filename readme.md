@@ -46,14 +46,14 @@ Deadline:
     Rủi ro rời đi của khách hàng:
     - churn_risk_score: Điểm rủi ro 
 
-![Alt text](image1.png)
+![Alt text](image/image1.png)
 
 2. Khám phá Dữ liệu (Data Exploration)
     a. Xuất các thông tin và trực quan các dữ liệu bằng ProfileReport
     b. Tiền xử lý Dữ liệu (Data Preprocessing)
     - Xử lý missing value và chọn các features cần thiết
 
-![Alt text](image2.png)
+![Alt text](image/image2.png)
 
       c. Trực quan EDA các số liệu, thống kê bằng python của dữ liệu và phân tích với Power Bi
       d. Xử lý outliers và imbalance có trong dữ liệu
@@ -61,10 +61,10 @@ Deadline:
 3. Xây dựng mô hình
 - Xây dựng các mô hình gồm logistic regression, decision trees, Random Forest, CatBoost, XGBoost, MLP, SVM, and implementing gridsearchCV with SVM.
 
-![Alt text](image3.png)
+![Alt text](image/image3.png)
     Đối với tập test:
-      ![Alt text](image4.png)
+      ![Alt text](imagei/mage4.png)
 4. Đánh giá mô hình
 - Trong số các kỹ thuật như Smote, RandomUndersampling,resample,... xử lý imbalance data. Nhận thấy Smote cho hiệu suất tốt nhất. Thông qua recall, tuy đã cải thiện vấn đề nhưng vẫn tồn tại chênh lệch khoảng 10% so với các lớp khác. 
 - Mô hình Catboost cho kết quả accuracy tốt nhất là 80% trên cả tập train và test. Giá trị recall cũng tốt hơn các mô hình khác. 
-    ![Alt text](image5.png)
+    ![Alt text](image/image5.png)
