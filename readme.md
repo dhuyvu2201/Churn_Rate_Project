@@ -47,7 +47,16 @@ Deadline:
     - churn_risk_score: Điểm rủi ro 
 
 ![Alt text](image/image1.png)
-<img src="image/image1.png" alt="Mô tả ảnh" style="image-rendering: crisp-edges; image-rendering: pixelated; width: 200%; height: 200%;">
+<img id="myImage" src="image/image1.png" alt="Mô tả ảnh">
+
+<script>
+  const img = document.getElementById('myImage');
+  img.onload = function() {
+    img.style.width = img.width * 2 + 'px';
+    img.style.height = img.height * 2 + 'px';
+  };
+</script>
+
 
 
 
