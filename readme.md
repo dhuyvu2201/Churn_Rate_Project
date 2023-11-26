@@ -55,8 +55,8 @@ Deadline:
 
 ![Alt text](image/image2.png)
 
-      c. Trực quan EDA các số liệu, thống kê bằng python của dữ liệu và phân tích với Power Bi
-      d. Xử lý outliers và imbalance có trong dữ liệu
+    c. Trực quan EDA các số liệu, thống kê bằng python của dữ liệu và phân tích với Power Bi
+    d. Xử lý outliers và imbalance có trong dữ liệu
 
 3. Xây dựng mô hình
 - Xây dựng các mô hình gồm logistic regression, decision trees, Random Forest, CatBoost, XGBoost, MLP, SVM, and implementing gridsearchCV with SVM.
