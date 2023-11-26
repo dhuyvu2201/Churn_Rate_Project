@@ -48,18 +48,6 @@ Deadline:
 
 ![Alt text](image/ima1.png)
 
-<script>
-  const img = document.getElementById('myImage');
-  img.onload = function() {
-    img.style.width = img.width * 2 + 'px';
-    img.style.height = img.height * 2 + 'px';
-  };
-</script>
-
-
-
-
-
 2. Khám phá Dữ liệu (Data Exploration)
    
     a. Xuất các thông tin và trực quan các dữ liệu bằng ProfileReport
