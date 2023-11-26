@@ -47,6 +47,7 @@ Deadline:
     - churn_risk_score: Điểm rủi ro 
 
 ![Alt text](image/image1.png)
+<img src="image/image1.png" width="1500" height="600">
 
 2. Khám phá Dữ liệu (Data Exploration)
    
