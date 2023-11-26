@@ -46,8 +46,7 @@ Deadline:
     Rủi ro rời đi của khách hàng:
     - churn_risk_score: Điểm rủi ro 
 
-![Alt text](image/image1.png)
-<img id="myImage" src="image/image1.png" alt="Mô tả ảnh">
+![Alt text](image/ima1.png)
 
 <script>
   const img = document.getElementById('myImage');
