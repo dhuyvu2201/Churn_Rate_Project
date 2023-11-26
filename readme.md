@@ -62,9 +62,11 @@ Deadline:
 - Xây dựng các mô hình gồm logistic regression, decision trees, Random Forest, CatBoost, XGBoost, MLP, SVM, and implementing gridsearchCV with SVM.
 
 ![Alt text](image/image3.png)
+
     Đối với tập test:
-      ![Alt text](imagei/mage4.png)
+      ![Alt text](image/image4.png)
 4. Đánh giá mô hình
 - Trong số các kỹ thuật như Smote, RandomUndersampling,resample,... xử lý imbalance data. Nhận thấy Smote cho hiệu suất tốt nhất. Thông qua recall, tuy đã cải thiện vấn đề nhưng vẫn tồn tại chênh lệch khoảng 10% so với các lớp khác. 
-- Mô hình Catboost cho kết quả accuracy tốt nhất là 80% trên cả tập train và test. Giá trị recall cũng tốt hơn các mô hình khác. 
+- Mô hình Catboost cho kết quả accuracy tốt nhất là 80% trên cả tập train và test. Giá trị recall cũng tốt hơn các mô hình khác.
+  
     ![Alt text](image/image5.png)
