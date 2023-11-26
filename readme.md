@@ -57,7 +57,23 @@ Deadline:
 ![Alt text](image/image2.png)
 
     c. Trực quan EDA các số liệu, thống kê bằng python của dữ liệu và phân tích với Power Bi
-    d. Xử lý outliers và imbalance có trong dữ liệu
+        - Heatmap trước khi xử lý dữ liệu 
+![Alt text](image/image12.png)
+
+        - Heatmap sau khi xử lý dữ liệu       
+![Alt text](image/image11.png)   
+
+        - Các đồ thị thống kê 
+![Alt text](image/image14.png)  
+
+        - Số lượng các lớp trong target 
+![Alt text](image/image13.png)     
+
+        - Xử lý outliers có trong dữ liệu
+![Alt text](image/image15.png)      
+
+    d. Trực quan với Power Bi
+![Alt text](image/image10.png) 
 
 3. Xây dựng mô hình
 - Xây dựng các mô hình gồm logistic regression, decision trees, Random Forest, CatBoost, XGBoost, MLP, SVM
