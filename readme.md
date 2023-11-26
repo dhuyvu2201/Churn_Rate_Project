@@ -49,6 +49,7 @@ Deadline:
 ![Alt text](image/image1.png)
 
 2. Khám phá Dữ liệu (Data Exploration)
+   
     a. Xuất các thông tin và trực quan các dữ liệu bằng ProfileReport
     b. Tiền xử lý Dữ liệu (Data Preprocessing)
       - Xử lý missing value và chọn các features cần thiết
