@@ -47,7 +47,8 @@ Deadline:
     - churn_risk_score: Điểm rủi ro 
 
 ![Alt text](image/image1.png)
-<img src="image/image1.png" alt="Mô tả ảnh" style="width: 200%; height: 200%;">
+<img src="image/image1.png" alt="Mô tả ảnh" style="image-rendering: crisp-edges; image-rendering: pixelated; width: 200%; height: 200%;">
+
 
 
 
