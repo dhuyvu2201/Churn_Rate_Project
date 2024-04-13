@@ -1,8 +1,8 @@
-### Bài tập nhóm SVM
+### SVM group exercise
 ---
-**Môn Nhập môn máy học (Machine Learning)**
+**Introduction to Machine Learning**
 
-**Yêu cầu:**
+**Request:**
 Description churn_rate_prediction.csv
 - Apply all knowledge and techniques that you have learned for this
 - You must organize your notebook based on the Homework
@@ -10,104 +10,103 @@ Description churn_rate_prediction.csv
 Deadline:
 - 3 weeks - (2023-06-25)
 
-**Nội dung**
-1. Đọc hiểu dữ liệu churn_rate_prediction.csv
-    Dữ liệu nhân khẩu học của khách hàng:
-    - customer_id: Mã định danh duy nhất cho mỗi khách hàng
-    - Name: Tên 
-    - age: Tuổi 
-    - gender: Giới tính 
-    - security_no: Số bảo hiểm 
-    - region_category: Phân loại khu vực 
-    - membership_category: Phân loại thành viên 
-    - joining_date: Ngày tham gia
+**Content**
+1. Read and understand churn_rate_prediction.csv data
+     Customer demographic data:
+     - customer_id: Unique identifier for each customer
+     - Name: Name
+     - age: Age
+     - gender: Gender
+     - security_no: Insurance number
+     - region_category: Region classification
+     - membership_category: Membership classification
+     - joining_date: Joining date
 
-    Quá trình tiếp cận khách hàng:
-    - joined_through_referral: Khách hàng tham gia thông qua giới thiệu
-    - referral_id: ID của khách hàng đã giới thiệu 
-    Sở thích của khách hàng:
-    - preferred_offer_types: Loại ưu đãi
-    - medium_of_operation: Phương tiện hoạt động 
-    - internet_option: Tùy chọn internet 
+     Customer access process:
+     - joined_through_referral: Customers join through referrals
+     - referral_id: ID of the referred customer
+     The customer's preference:
+     - preferred_offer_types: Offer types
+     - medium_of_operation: Means of operation
+     - internet_option: Internet options
 
-    Hành vi của khách hàng:
+     Customer behavior:
 
-    - last_visit_time: Thời gian truy cập cuối cùng 
-    - days_since_last_login: Số ngày kể từ lần đăng nhập cuối 
-    - avg_time_spent: Thời gian trung bình 
-    - avg_transaction_value: Giá trị giao dịch trung bình
-    - avg_frequency_login_days: Tần suất đăng nhập trung bình mỗi ngày
-    - points_in_wallet: Số điểm trong ví 
-    - used_special_discount: Khách hàng đã sử dụng giảm giá đặc biệt hay chưa
+     - last_visit_time: Last visit time
+     - days_since_last_login: Number of days since last login
+     - avg_time_spent: Average time
+     - avg_transaction_value: Average transaction value
+     - avg_frequency_login_days: Average login frequency per day
+     - points_in_wallet: Number of points in wallet
+     - used_special_discount: Whether the customer has used the special discount or not
 
-    Phản hồi của khách hàng:
-    - feedback: Phản hồi của khách hàng
+     Customer's feedback:
+     - feedback: Customer feedback
 
-    Rủi ro rời đi của khách hàng:
-    - churn_risk_score: Điểm rủi ro 
+     Risk of customer churn:
+     - churn_risk_score: Risk score
 
 ![Alt text](image/ima1.png)
 
-2. Khám phá Dữ liệu (Data Exploration)
+2. Data Exploration
    
-    a. Xuất các thông tin và trực quan các dữ liệu bằng ProfileReport
-    b. Tiền xử lý Dữ liệu (Data Preprocessing)
-      - Xử lý missing value và chọn các features cần thiết
+     a. Export information and visualize data using ProfileReport
+     b. Data Preprocessing
+       - Handle missing values and select necessary features
 
 ![Alt text](image/image2.png)
 
-    c. Trực quan EDA các số liệu, thống kê bằng python của dữ liệu và phân tích với Power Bi
-        - Heatmap trước khi xử lý dữ liệu 
+     c. EDA visualization of metrics, python statistics of data and analysis with Power Bi
+         - Heatmap before data processing
 ![Alt text](image/image12.png)
 
-        - Heatmap sau khi xử lý dữ liệu       
-![Alt text](image/image11.png)   
+         - Heatmap after data processing
+![Alt text](image/image11.png)
 
-        - Các đồ thị thống kê 
-![Alt text](image/image14.png)  
+         - Statistical graphs
+![Alt text](image/image14.png)
 
-        - Số lượng các lớp trong target 
-![Alt text](image/image13.png)     
+         - Number of classes in target
+![Alt text](image/image13.png)
 
-        - Xử lý outliers có trong dữ liệu
-![Alt text](image/image15.png)      
+         - Handle outliers in the data
+![Alt text](image/image15.png)
 
-    d. Trực quan với Power Bi
-![Alt text](image/image10.png) 
+     d. Intuitive with Power Bi
+![Alt text](image/image10.png)
 
-3. Xây dựng mô hình
-- Xây dựng các mô hình gồm logistic regression, decision trees, Random Forest, CatBoost, XGBoost, MLP, SVM
-    a. Đối với tập train
-          ![Alt text](image/image8.png)
-    b. Đối với tập test
-          ![Alt text](image/image9.png)
-- Nhận thấy giá trị dự đoán ở cả 2 tập train và test đều khá tương đồng nhau
-    a. Đối với tập train của SVM
-          ![Alt text](image/image3.png)
+3. Build the model
+- Build models including logistic regression, decision trees, Random Forest, CatBoost, XGBoost, MLP, SVM
+     a. For training set
+           ![Alt text](image/image8.png)
+     b. For test set
+           ![Alt text](image/image9.png)
+- Found that the prediction values in both train and test sets are quite similar
+     a. For the training set of SVM
+           ![Alt text](image/image3.png)
   
-    b. Đối với tập test của SVM
-          ![Alt text](image/image4.png)
+     b. For the test set of SVM
+           ![Alt text](image/image4.png)
   
-    c. Đối với Catboost Model
-          ![Alt text](image/image5.png)
+     c. For Catboost Models
+           ![Alt text](image/image5.png)
   
-- Trong số các kỹ thuật như Smote, RandomUndersampling,resample,... xử lý imbalance data. Nhận thấy Smote cho hiệu suất tốt nhất. Thông qua recall, tuy đã cải thiện vấn đề nhưng vẫn tồn tại chênh lệch khoảng 10% so với các lớp khác. 
-- Mô hình Catboost cho kết quả accuracy tốt nhất là 80% trên cả tập train và test. Giá trị recall cũng tốt hơn các mô hình khác.
-- Thử nghiệm với GridSearchCV và PCA cho SVM Model
+- Among techniques such as Smote, RandomUndersampling, resample,... handling imbalance data. Found Smote for the best performance. Through recall, although the problem has been improved, there is still a difference of about 10% compared to other classes.
+- Catboost model gives the best accuracy results of 80% on both train and test sets. The recall value is also better than other models.
+- Experiment with GridSearchCV and PCA for SVM Model
 
-    a. PCA với số chiều là 4
+     a. PCA with dimensionality of 4
   
-    ![Alt text](image/image6.png)
+     ![Alt text](image/image6.png)
   
-    b. GridSearchCV SVM Model
+     b. GridSearchCV SVM Model
   
-    ![Alt text](image/image7.png)
+     ![Alt text](image/image7.png)
   
-    c. Nhận thấy GridSearchCV không cải thiện. Điều này có thể do mảng lưới tìm kiếm chưa tối ưu?
+     c. Noticed GridSearchCV doesn't improve. Could this be because the search grid array is not optimal?
   
-4. Đánh giá mô hình
+4. Evaluate the model
    
-- Quá trình xử lý dữ liệu đã hạn chế mất mát thông tin nhất có thể. Mặc dù chưa đạt hiệu quả cao nhất. Tuy nhiên, vẫn còn một số vấn đề cần giải quyết như cần xử lý lại dữ liệu để tối ưu hơn, hiệu suất thấp trên một số lớp, xử lý mất cân bằng trên các lớp cần được xem xét qua các tỷ lệ.
+- The data processing process has limited information loss as much as possible. Even though it's not the most effective yet. However, there are still some issues that need to be resolved such as needing to reprocess the data to be more optimal, low performance on some layers, imbalance handling on layers that need to be considered through ratios.
   
-- Chưa thử nghiệm đánh giá và so sánh các kỹ thuật như PCA, Polynomial transform,Grid SearchCV ... cho các mô hình khác để so sánh và lựa chọn thông số thích hợp.
-
+- Have not tested, evaluated and compared techniques such as PCA, Polynomial transform, Grid SearchCV... for other models to compare and select appropriate parameters.
